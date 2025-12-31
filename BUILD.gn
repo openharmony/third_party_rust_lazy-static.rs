@@ -24,4 +24,7 @@ ohos_cargo_crate("lib") {
     cargo_pkg_authors = "Marvin Löbel <loebel.marvin@gmail.com>"
     cargo_pkg_name = "lazy_static"
     cargo_pkg_description = "A macro for declaring lazily evaluated statics in Rust."
+    module_output_extension = ".rlib"
+    part_name = "rust_lazy_static"
+    subsystem_name = "thirdparty"
 }
